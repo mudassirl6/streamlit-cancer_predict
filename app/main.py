@@ -6,7 +6,7 @@ import numpy as np
 
 
 def get_clean_data():
-  data = pd.read_csv("/Users/mudassirmohammed/Desktop/GRADIUS/streamlit-cancer_predict/DATA/data.csv")
+  data = pd.read_csv("DATA/data.csv")
   
   data = data.drop(['Unnamed: 32', 'id'], axis=1)
   
